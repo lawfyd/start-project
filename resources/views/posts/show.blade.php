@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
-    <h1> {{ $task->body }} </h1>
+        <h1>Header</h1>
+        <p>post</p>
     </div>
 @endsection
