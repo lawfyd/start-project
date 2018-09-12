@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hello', function () {
+    $tasks = ['add task', 'find task', 'rewiews task'];
+    return view('hello', compact('tasks'));
+});
